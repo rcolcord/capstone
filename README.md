@@ -55,11 +55,18 @@ All models tested performed significantly better than the baseline model which p
 
 (TODO : result dataframe)
 broad overview
-(TODO : mse chart)
+
+![Model-Scores.png](https://github.com/rcolcord/capstone/blob/main/images/test_mse.png)
+
 discuss mse
-(TODO : time chart )
+
+![Model-Scores.png](https://github.com/rcolcord/capstone/blob/main/images/train_time.png)
+
 discuss train time
-(TODO : over fit chart)
+
+![Model-Scores.png](https://github.com/rcolcord/capstone/blob/main/images/overfit.png)
+
+
 discuss overfitting
 make recommendation
 
