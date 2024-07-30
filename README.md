@@ -54,6 +54,8 @@ This is a classic prediction problem using numeric inputs, so we will model usin
 
 The use of these regression algorithms also makes the task of understanding the impact of various input features very easy - we simply need to examine the feature coefficients produced in order to gain insight into which features have the biggest impact on power generation.
 
+Train and test sets will be generated using an 80/20 split. GridSearchCV will be used to determine the optimal hyperparameters for each model - see the linked Jupyter notebook linked at the bottom of this document for specifics on the parameters searched. Mean squared error will be the metric used to evaluate performance. MSE on both train and test sets will be recorded. In addition, training time for the best model will be measured and recorded.
+
 ### Results
 
 ![Results-Dataframe.png](https://github.com/rcolcord/capstone/blob/main/images/results.png)
